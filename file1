@@ -1,1 +1,3 @@
-test content from test branch 
+providers = "aws" {
+region    = "us-east-1"
+}

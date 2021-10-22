@@ -19,7 +19,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = var.hw
   key_name = var.key
   tags = {
-    Name = "gagandeep-aws-ec2-instance1"
+    Name = "gagandeep-aws-ec2-instance2"
     Env = "Dev"
   }
 }
